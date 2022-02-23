@@ -20,19 +20,19 @@ export const Header = ({ candyMachine }: HeaderProps) => {
               <Typography
                 variant="h6"
                 color="textPrimary"
-                style={{ fontWeight: 'bold' }}
+                style={{ fontWeight: '' }}
               >
-                Price
+                Price: {getMintPrice(candyMachine)}
               </Typography>
             </Grid>
             <Grid container direction="row" alignContent="center">
               <Typography
                 variant="h6"
                 color="textPrimary"
-                style={{ fontWeight: 'bold' }}
+                style={{ fontWeight: '' }}
               >
-                {getMintPrice(candyMachine)}
-              </Typography>
+                Remaining: {`${candyMachine?.state.itemsRemaining - 14}`}
+              </Typography>{' '}
             </Grid>
           </Grid>
         )}

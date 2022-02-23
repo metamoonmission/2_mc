@@ -1594,7 +1594,9 @@ a:hover {
   align-items: center;
   background-color: #00233d;
 }
-
+.no_cursor {
+  cursor: no-drop;
+}
 .intro_button_note {
   margin-top: 4px;
   font-family: Inconsolata, monospace;
