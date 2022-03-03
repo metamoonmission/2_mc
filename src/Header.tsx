@@ -31,7 +31,7 @@ export const Header = ({ candyMachine }: HeaderProps) => {
                 color="textPrimary"
                 style={{ fontWeight: '' }}
               >
-                Remaining: {`${candyMachine?.state.itemsRemaining - 4}`}
+                Remaining: {`${candyMachine?.state.itemsRemaining - 50}`}
               </Typography>{' '}
             </Grid>
           </Grid>

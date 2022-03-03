@@ -212,7 +212,7 @@ const Home = (props: HomeProps) => {
         >
           {!wallet.connected ? (
             <ConnectButton>
-              MoonCoin • Limited: 99 total
+              MoonCoin • Limited: 49 total
               <br />
               CONNECT WALLET
             </ConnectButton>
